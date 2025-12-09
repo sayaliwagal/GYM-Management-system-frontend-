@@ -1,4 +1,5 @@
 import React from "react";
+import Modal from "./Modal.jsx";
 
 const Signup = () => {
   return (
@@ -41,6 +42,7 @@ const Signup = () => {
       <div className="p-2 w-80 border-2 border-slate-700 bg-slate-700 hover:bg-slate-800 mx-auto rounded-lg text-white font-semibold text-lg text-center cursor-pointer">
         Forget Password
       </div>
+      <Modal />
     </div>
   );
 };
